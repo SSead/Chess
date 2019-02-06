@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bishop_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\bishop_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\black_tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\king_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\king_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\knight_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\knight_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pawn_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\pawn_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\queen_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\queen_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\rook_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\rook_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\white_tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\none.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\black_tile_select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\white_tile_select.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
